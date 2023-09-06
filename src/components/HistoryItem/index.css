@@ -1,0 +1,89 @@
+.history-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.time {
+  color: #64748b;
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 500;
+  width: 100px;
+}
+
+.icon-container {
+  display: flex;
+  width: 100%;
+}
+
+.logo-url {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-url {
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+  }
+}
+
+.website-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .website-name-container {
+    flex-direction: row;
+  }
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.domain-url {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0px;
+  color: #64748b;
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-url {
+    margin-left: 10px;
+  }
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+
+.delete-icon {
+  height: 20px;
+  position: relative;
+}
